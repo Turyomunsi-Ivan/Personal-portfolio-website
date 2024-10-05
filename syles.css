@@ -1,0 +1,633 @@
+html {
+    font-size: 62.5%;
+    /* Sets 1rem to 10px */
+}
+
+/* -------------------------------------------Google fonts----------------------------------------------- */
+
+
+
+
+/* Removing default browser padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    text-decoration: none;
+}
+
+body {
+    margin: 4rem;
+    border: 0.1rem solid #c9d4c7;
+    box-shadow: 0.2rem 0.4rem 0.6rem rgba(15, 34, 23, 0.918);
+
+
+
+
+}
+
+.header {
+    background-color: #2c5933;
+    position: sticky;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    padding: 1rem;
+    height: 20vh;
+    border-bottom: 0.1rem solid #c9d4c7;
+    z-index: 10;
+
+
+
+}
+
+.main-site-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-family: "Dancing Script", Verdana;
+    font-weight: 300;
+    color: #FCCD2A;
+}
+
+
+
+
+.nav-menu ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.nav-menu li {
+
+    display: inline;
+    padding: 1.6rem;
+
+}
+
+.nav-menu li a {
+
+    display: inline-block;
+    padding: 0 0 0.2rem 0;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+
+
+}
+
+.nav-menu li a:hover {
+    border-bottom: 0.1rem solid #FCCD2A;
+
+
+
+}
+
+.nav-menu li a:focus {
+    border-bottom: 0.2rem solid #FCCD2A;
+
+
+}
+
+/* -------------------------------Profile/ welcom section----------------------------------------------- */
+.profile-section {
+    height: 100%;
+}
+
+#profile-heading {
+    font-size: 2.4rem;
+    font-family: "Work Sans", arial, sans-serif;
+    font-weight: 500;
+    color: #ec825b;
+    line-height: 3;
+    padding: 2rem;
+    word-spacing: 2;
+
+}
+
+.profile-intro>p {
+    font-family: "Jost", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+button {
+    width: 20rem;
+}
+
+.button-center {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+.profile-button {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #ec825b;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #f7f7f7;
+
+
+
+}
+
+.profile-button>a {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 1.7rem;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #2c5933;
+}
+
+.profile-image img {
+    width: 70%;
+    height: auto;
+
+}
+
+/* -----------------------------------Skills section----------------------------------------------------- */
+.skills {
+    height: 100%;
+
+}
+
+.skills h1 {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+
+table {
+    margin: 4rem;
+}
+
+td {
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    line-height: 1.6;
+
+
+}
+
+th {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #f7f7f7;
+    font-size: 1.7rem;
+    padding: 1rem;
+    background-color: #ec825b;
+    width: 60vw;
+}
+
+p {
+    font-size: 1.6rem;
+
+}
+
+/* ----------------------------------Projects Section---------------------------------------------------- */
+.project-tile {
+    height: 100%;
+
+}
+
+.project-tile h1 {
+
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 8rem 0;
+
+
+}
+
+.gallery {}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery p {
+    margin: 2rem 0;
+    font-family: "Jost", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    text-align: center;
+
+
+}
+
+.gallery h3 {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 3rem 0;
+    color: #ec825b;
+}
+
+/* -----------------------------------Contact Me Section------------------------------------------------- */
+.contact {
+    height: calc(100% + 80vh)
+}
+
+.contact h1 {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 8rem 0;
+
+}
+
+.contact h3 {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 3rem 0;
+    color: #ec825b;
+}
+
+.contact p {
+    font-family: "Jost", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+    margin-top: 4rem;
+
+
+}
+
+.contact p a {
+    margin-left: 1rem;
+    color: #2c5933;
+}
+
+.contact-para {
+    margin-top: 1rem;
+}
+
+.contact-form form {
+    padding: 1rem;
+    /* border: 1px solid #2c5933; */
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.contact-form form h2 {
+    font-size: 2rem;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 4rem 0;
+    color: #ec825b;
+
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.7rem;
+    margin: 0.7rem 0;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    visibility: hidden;
+
+
+
+
+}
+
+.contact-form input {
+
+
+    width: 70%;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border-style: none;
+    border-bottom: 1px solid green;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+
+
+
+}
+
+textarea {
+    width: 70%;
+    border: 1px solid green;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ec825b;
+    color: #f7f7f7;
+    cursor: pointer;
+    font-size: 1.7rem;
+
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #2c5933;
+}
+
+.contact-form input[type="date"] {
+    margin: 1.5rem 0;
+}
+
+
+/* -----------------Styles for the background color and margin for elements with class of section----------------------- */
+.section {
+    margin: 0;
+    padding: 3rem;
+
+}
+
+.section:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Light background for even sections */
+}
+
+.section:nth-child(odd) {
+    background-color: #EBF9F6;
+    /* Darker background for odd sections */
+}
+
+/*------------------------------- about me page styles ----------------------------------------- */
+.icon-section {
+    background-color: #EBF9F6;
+}
+
+.icon-section h3 {
+    font-weight: 500;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #ec825b;
+}
+
+.contact-info {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    /* Space between icons */
+}
+
+.contact-item {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #333;
+    /* Default icon color */
+    font-size: 3rem;
+    /* Icon size */
+}
+
+.fa-whatsapp:hover {
+    color: green;
+}
+
+.contact-item:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+.about-profile-section {
+    height: 100vh;
+}
+
+/* ----------------------------------- Grid columns ------------------------------------------------------*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Applies to all elements with class of "col-" */
+[class*="col-"] {
+    float: left;
+    padding: 1.5rem;
+    /* border: 1px solid red; For troubleshooting purposes  */
+}
+
+/* ------------------------------------footer styles-------------------------------- */
+footer {
+    padding: 2rem;
+    background-color: #2c5933;
+
+
+
+}
+
+footer p {
+    color: #FCCD2A;
+
+    font-size: 2rem;
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* ----------------------------------Media queries---------------------------------- */
+/* if the  viewport width is 1024px or wider/larger, apply these styles */
+@media only screen and (min-width: 1024px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/* if Viewport width is 600px or wider */
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+/*------------------ For mobile phones-------- */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        margin: 0;
+
+        p {
+            font-size: 1.6rem;
+        }
+
+
+
+
+    }
+
+    .contact-form input {
+
+
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+    }
+}
+
+/* ------------------Ipads and Tablets--------- */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 0;
+
+
+
+
+    }
+
+    .contact-form input {
+
+
+        width: 70vw;
+    }
+
+    textarea {
+        width: 70vw;
+    }
+}
+
+/* Small screens and laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact-form input {
+
+
+        width: 60vw;
+    }
+
+    textarea {
+        width: 60vw;
+    }
+}
+
+/* Desktop and large screens */
+@media (min-width:1025px) and (max-width: 1200px) {}
+
+/* Extra large screens */
+@media (min-width: 1201px) {}
