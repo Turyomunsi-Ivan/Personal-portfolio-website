@@ -591,6 +591,13 @@ footer p {
     textarea {
         width: 80%;
     }
+
+    .button-center {
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-around;
+        flex-direction: row;
+    }
 }
 
 /* ------------------Ipads and Tablets--------- */
